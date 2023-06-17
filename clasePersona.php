@@ -47,13 +47,17 @@ class Persona {
 $persona = new Persona('Manuel', 'Juarez', 21);
 
 echo $persona->getNombre();
+echo '<br>';
 echo $persona->getApellidos();
+echo '<br>';
 echo $persona->getEdad();
 
 $persona->setEdad(22);
+echo '<br>';
 echo $persona->getEdad();
-
+echo '<br>';
 echo $persona->mayorEdad();
-
+echo '<br>';
 echo $persona->nombreCompleto();
 ?>
+
